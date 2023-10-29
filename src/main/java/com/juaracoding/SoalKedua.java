@@ -19,7 +19,7 @@ public class SoalKedua {
             for (int j = 0; j < secondValue-i; j++) {
                 num++;
 
-                if( num%2 == 0){
+                if(num%2 == 0){
                     System.out.print("_");
                 } else System.out.print(num);
             }
