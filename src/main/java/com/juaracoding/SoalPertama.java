@@ -8,6 +8,7 @@ public class SoalPertama {
         for (int i = 0;i < arr.length;i++){
             num++;
             arr[i] = num;
+
             if(arr[i]%3 == 0 && arr[i]%5 == 0){
                 System.out.println(arr[i]+" adalah BIZZBUZZ,");
             } else if (arr[i]%3 == 0) {
